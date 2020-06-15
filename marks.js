@@ -22,3 +22,31 @@ function createCircle(radius) {
 }
 
 const circle1 = createCircle(1);
+
+
+// Constructor Function 
+//to create multiple objects
+
+function Circle(radius) {
+	this.radius = radius;
+	this.draw = function() {
+		console.log('draw constructor function');
+	}
+}
+
+
+const circle = new Circle(1);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
